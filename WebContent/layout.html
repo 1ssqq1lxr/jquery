@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css"
+	href="easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="easyui/themes/icon.css">
+<script type="text/javascript" src="easyui/jquery.min.js"></script>
+<script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<body class="easyui-layout">
+	<div data-options="region:'north',title:'标题',split:true"
+		style="height: 100px;"></div>
+	<div data-options="region:'south',title:'',split:true"
+		style="height: 100px;">
+		<font color="red"> 京网文[2014]2045-295号 互联网新闻信息服务许可</font>
+
+	</div>
+	<div
+		data-options="region:'east',iconCls:'icon-reload',title:'功能',split:true"
+		style="width: 100px;"></div>
+	<div data-options="region:'west',title:'管理',split:true"
+		style="width: 250px;">
+		<div id="leftaccording" class="easyui-accordion"
+			data-options="fit:true">
+			<div title="航母检测平台" data-options="iconCls:'icon-save',selected:true"
+				style="overflow: auto; padding: 10px;">
+
+				<ul id="jeasyUItree"></ul>
+
+
+			</div>
+			<div title="物业管理平台" data-options="iconCls:'icon-reload'"
+				style="padding: 10px;">content2</div>
+			<div title="人事管理平台">content3</div>
+		</div>
+
+
+
+	</div>
+	<div data-options="region:'center',title:'窗口'"
+		style="padding: 5px; background: #eee;"></div>
+</body>
+
+</body>
+</html>
